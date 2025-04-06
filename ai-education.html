@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI Education Initiative - Empowering the next generation with AI knowledge">
+    <title>AI Education | Infinite AI</title>
+    
+    <!-- Stylesheets -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --color-primary: #7B2CBF;
+            --color-secondary: #9D4EDD;
+            --color-accent: #C77DFF;
+            --color-dark: #240046;
+            --color-light: #E0AAFF;
+        }
+
+        .gradient-bg {
+            background: linear-gradient(135deg, var(--color-dark) 0%, var(--color-primary) 100%);
+        }
+
+        .insight-card {
+            background: white;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .insight-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(123, 44, 191, 0.2);
+        }
+
+        .stats-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .mission-card {
+            border-left: 4px solid var(--color-primary);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 gradient-bg">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <a href="index.html" class="text-2xl font-bold text-white">Infinite AI</a>
+                <a href="index.html" class="text-white hover:text-gray-200 transition-colors">
+                    <i class="fas fa-arrow-left mr-2"></i> Back to Home
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 gradient-bg text-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto text-center">
+                <h1 class="text-5xl font-bold mb-6">Shaping the Future with AI Education</h1>
+                <p class="text-xl text-gray-200 mb-8">
+                    Empowering the next generation with the knowledge and skills to thrive in an AI-driven world
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
+                    <div class="stats-card rounded-xl p-6">
+                        <div class="text-4xl font-bold mb-2">97%</div>
+                        <p class="text-gray-300">Jobs Impacted by AI</p>
+                    </div>
+                    <div class="stats-card rounded-xl p-6">
+                        <div class="text-4xl font-bold mb-2">2025</div>
+                        <p class="text-gray-300">AI Skills Demand Peak</p>
+                    </div>
+                    <div class="stats-card rounded-xl p-6">
+                        <div class="text-4xl font-bold mb-2">133M</div>
+                        <p class="text-gray-300">New AI Jobs by 2025</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why AI is the Future -->
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-4xl font-bold text-gray-800 mb-8 text-center">Why AI is the Future</h2>
+                
+                <div class="bg-white rounded-2xl shadow-lg p-8 mb-12">
+                    <p class="text-gray-600 text-lg leading-relaxed mb-8">
+                        Artificial Intelligence is not just another technological advancement – it's a fundamental shift in how we live, work, and solve problems. As AI continues to transform industries and create new opportunities, understanding and working with AI is becoming as essential as computer literacy was in the past decades.
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div class="p-6 bg-purple-50 rounded-xl">
+                            <h3 class="text-xl font-bold text-gray-800 mb-3">Industry Impact</h3>
+                            <ul class="space-y-3 text-gray-600">
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-purple-600 mt-1 mr-2"></i>
+                                    <span>Automation of routine tasks</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-purple-600 mt-1 mr-2"></i>
+                                    <span>Enhanced decision-making capabilities</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-purple-600 mt-1 mr-2"></i>
+                                    <span>Creation of new job roles and opportunities</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="p-6 bg-purple-50 rounded-xl">
+                            <h3 class="text-xl font-bold text-gray-800 mb-3">Future Readiness</h3>
+                            <ul class="space-y-3 text-gray-600">
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-purple-600 mt-1 mr-2"></i>
+                                    <span>Essential skill for future workforce</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-purple-600 mt-1 mr-2"></i>
+                                    <span>Competitive advantage in job market</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-purple-600 mt-1 mr-2"></i>
+                                    <span>Innovation and problem-solving skills</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Mission -->
+    <section class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-gray-800 mb-12 text-center">Our Mission</h2>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="insight-card p-8 mb-8 mission-card">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Bridging the Digital Divide</h3>
+                    <p class="text-gray-600 text-lg mb-6">
+                        We believe that AI education should not be a privilege but a right. Our mission is to make AI knowledge accessible to everyone, regardless of their background or economic status. Through our free programs for government schools, we're working to ensure that no student is left behind in the AI revolution.
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <ul class="space-y-3 text-gray-600">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>Free comprehensive AI curriculum</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>Hands-on practical training</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>Industry expert mentoring</span>
+                            </li>
+                        </ul>
+                        <ul class="space-y-3 text-gray-600">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>Project-based learning</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>Career guidance</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>Continuous support</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Social Impact -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="insight-card p-6 text-center">
+                        <div class="text-purple-600 text-4xl mb-4">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Education for All</h3>
+                        <p class="text-gray-600">
+                            Making AI education accessible to students from all backgrounds and economic conditions.
+                        </p>
+                    </div>
+
+                    <div class="insight-card p-6 text-center">
+                        <div class="text-purple-600 text-4xl mb-4">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Community Impact</h3>
+                        <p class="text-gray-600">
+                            Building stronger communities through technology education and empowerment.
+                        </p>
+                    </div>
+
+                    <div class="insight-card p-6 text-center">
+                        <div class="text-purple-600 text-4xl mb-4">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Future Ready</h3>
+                        <p class="text-gray-600">
+                            Preparing the next generation for an AI-driven world and economy.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Educational Programs -->
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-gray-800 mb-12 text-center">Our Programs</h2>
+
+            <div class="max-w-6xl mx-auto">
+                <!-- Government School Initiative -->
+                <div class="insight-card p-8 mb-12">
+                    <div class="flex items-start">
+                        <div class="text-purple-600 text-4xl mr-6 flex-shrink-0">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-800 mb-4">Government School Initiative</h3>
+                            <p class="text-gray-600 mb-6">
+                                Our flagship program dedicated to bringing AI education to government schools across India, completely free of charge. We believe in creating equal opportunities and ensuring that talented students from all backgrounds have access to cutting-edge technology education.
+                            </p>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div>
+                                    <h4 class="text-lg font-bold text-gray-800 mb-3">Program Features</h4>
+                                    <ul class="space-y-3 text-gray-600">
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                            <span>Complete AI curriculum at no cost</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                            <span>Interactive learning materials</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                            <span>Practical project work</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                            <span>Regular workshops and seminars</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-bold text-gray-800 mb-3">Support Provided</h4>
+                                    <ul class="space-y-3 text-gray-600">
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                            <span>Learning resources and materials</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                            <span>Dedicated mentoring support</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                            <span>Project guidance</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                            <span>Career counseling</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professional Training -->
+                <div class="insight-card p-8">
+                    <div class="flex items-start">
+                        <div class="text-purple-600 text-4xl mr-6 flex-shrink-0">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-800 mb-4">Professional Training Programs</h3>
+                            <p class="text-gray-600 mb-6">
+                                Comprehensive training solutions for professionals and organizations looking to enhance their AI capabilities. From basic understanding to advanced implementation, our programs are designed to meet various skill levels and requirements.
+                            </p>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div>
+                                    <h4 class="text-lg font-bold text-gray-800 mb-3">Corporate Training</h4>
+                                    <ul class="space-y-3 text-gray-600">
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                            <span>Customized training modules</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                            <span>Industry-specific applications</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                            <span>Hands-on workshops</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                            <span>Implementation support</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-bold text-gray-800 mb-3">Individual Professional</h4>
+                                    <ul class="space-y-3 text-gray-600">
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                            <span>Flexible learning paths</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                            <span>Certification programs</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                            <span>Personal mentoring</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                            <span>Project portfolio development</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curriculum Overview -->
+    <section class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-gray-800 mb-12 text-center">Comprehensive Curriculum</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- Fundamentals -->
+                <div class="insight-card p-8">
+                    <div class="text-purple-600 text-3xl mb-4">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">AI Fundamentals</h3>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Introduction to AI concepts</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Basic programming skills</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Data handling basics</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Problem-solving techniques</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Advanced Concepts -->
+                <div class="insight-card p-8">
+                    <div class="text-purple-600 text-3xl mb-4">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Advanced Concepts</h3>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Machine Learning algorithms</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Deep Learning fundamentals</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Neural Networks</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Natural Language Processing</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Practical Applications -->
+                <div class="insight-card p-8">
+                    <div class="text-purple-600 text-3xl mb-4">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Practical Applications</h3>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Real-world projects</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Industry case studies</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Hands-on workshops</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Project portfolio development</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Teaching Methodology -->
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-gray-800 mb-12 text-center">Our Teaching Approach</h2>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="space-y-8">
+                    <!-- Interactive Learning -->
+                    <div class="insight-card p-8">
+                        <div class="flex items-start">
+                            <div class="text-purple-600 text-4xl mr-6 flex-shrink-0">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-800 mb-3">Interactive Learning</h3>
+                                <p class="text-gray-600 mb-4">
+                                    We believe in learning by doing. Our interactive approach combines theoretical knowledge with hands-on practice.
+                                </p>
+                                <ul class="space-y-2 text-gray-600">
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>Small group sessions</span>
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>Live coding demonstrations</span>
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>Interactive Q&A sessions</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project-Based Learning -->
+                    <div class="insight-card p-8">
+                        <div class="flex items-start">
+                            <div class="text-purple-600 text-4xl mr-6 flex-shrink-0">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-800 mb-3">Project-Based Learning</h3>
+                                <p class="text-gray-600 mb-4">
+                                    Real-world projects that help students understand practical applications of AI.
+                                </p>
+                                <ul class="space-y-2 text-gray-600">
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>Industry-relevant projects</span>
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>Team collaboration opportunities</span>
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>Portfolio development</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mentorship Support -->
+                    <div class="insight-card p-8">
+                        <div class="flex items-start">
+                            <div class="text-purple-600 text-4xl mr-6 flex-shrink-0">
+                                <i class="fas fa-user-friends"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-800 mb-3">Dedicated Mentorship</h3>
+                                <p class="text-gray-600 mb-4">
+                                    Continuous guidance and support from industry experts throughout the learning journey.
+                                </p>
+                                <ul class="space-y-2 text-gray-600">
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>One-on-one mentoring sessions</span>
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>Career guidance</span>
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>Industry networking opportunities</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Outcomes -->
+    <section class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-gray-800 mb-12 text-center">What You'll Achieve</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- Skills Development -->
+                <div class="insight-card p-8">
+                    <h3 class="text-xl font-bold text-gray-800 mb-6">Technical Skills</h3>
+                    <ul class="space-y-4 text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-code text-purple-600 mt-1 mr-3"></i>
+                            <span>Programming proficiency in Python</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-brain text-purple-600 mt-1 mr-3"></i>
+                            <span>Understanding of ML algorithms</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-database text-purple-600 mt-1 mr-3"></i>
+                            <span>Data analysis capabilities</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Career Outcomes -->
+                <div class="insight-card p-8">
+                    <h3 class="text-xl font-bold text-gray-800 mb-6">Career Growth</h3>
+                    <ul class="space-y-4 text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-briefcase text-purple-600 mt-1 mr-3"></i>
+                            <span>Industry-ready portfolio</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-certificate text-purple-600 mt-1 mr-3"></i>
+                            <span>Professional certification</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-network-wired text-purple-600 mt-1 mr-3"></i>
+                            <span>Industry network access</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-20 gradient-bg">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden">
+                <div class="p-8">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Join Our AI Education Initiative</h2>
+                    <p class="text-gray-600 mb-8">
+                        Whether you're a school administrator interested in our free program or a professional looking to upskill, we're here to help you get started with AI.
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <!-- For Schools -->
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-4">For Schools</h3>
+                            <p class="text-gray-600 mb-4">
+                                Bring AI education to your government school at no cost.
+                            </p>
+                            <a href="mailto:infiniteaitechsol@gmail.com" 
+                               class="button-primary px-8 py-3 rounded-lg text-white inline-block">
+                                Partner with Us
+                            </a>
+                        </div>
+                        <!-- For Professionals -->
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-4">For Professionals</h3>
+                            <p class="text-gray-600 mb-4">
+                                Enhance your skills with our professional training programs.
+                            </p>
+                            <a href="mailto:infiniteaitechsol@gmail.com" 
+                               class="button-primary px-8 py-3 rounded-lg text-white inline-block">
+                                Get Started
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl font-bold text-gray-800 mb-8">Ready to Begin?</h2>
+                <p class="text-gray-600 mb-8">
+                    Contact us to learn more about our AI education programs or to schedule a consultation.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <i class="fas fa-envelope text-purple-600 text-2xl mb-4"></i>
+                        <p class="text-gray-800">infiniteaitechsol@gmail.com</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fas fa-phone text-purple-600 text-2xl mb-4"></i>
+                        <p class="text-gray-800">+91 9994481257</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fas fa-map-marker-alt text-purple-600 text-2xl mb-4"></i>
+                        <p class="text-gray-800">Chennai, Tamil Nadu</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark py-8">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm">
+                    &copy; 2024 Infinite AI. All rights reserved.
+                </p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

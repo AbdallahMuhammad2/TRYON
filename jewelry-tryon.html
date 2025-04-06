@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Virtual Jewelry Try-On: Market Insights and Impact Analysis">
+    <title>Jewelry Try-On Insights | Infinite AI</title>
+    
+    <!-- Stylesheets -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --color-primary: #7B2CBF;
+            --color-secondary: #9D4EDD;
+            --color-accent: #C77DFF;
+            --color-dark: #240046;
+            --color-light: #E0AAFF;
+        }
+
+        .gradient-bg {
+            background: linear-gradient(135deg, var(--color-dark) 0%, var(--color-primary) 100%);
+        }
+
+        .insight-card {
+            background: white;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .insight-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(123, 44, 191, 0.2);
+        }
+
+        .stats-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 gradient-bg">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <a href="index.html" class="text-2xl font-bold text-white">Infinite AI</a>
+                <a href="index.html" class="text-white hover:text-gray-200 transition-colors">
+                    <i class="fas fa-arrow-left mr-2"></i> Back to Home
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 gradient-bg text-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto text-center">
+                <h1 class="text-5xl font-bold mb-6">Virtual Jewelry Try-On: The Future of Retail</h1>
+                <p class="text-xl text-gray-200 mb-8">
+                    How Augmented Reality is Transforming the Jewelry Shopping Experience
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
+                    <!-- Market Statistics -->
+                    <div class="stats-card rounded-xl p-6">
+                        <div class="text-4xl font-bold mb-2">98%</div>
+                        <p class="text-gray-300">Consumers Prefer AR Shopping</p>
+                    </div>
+                    <div class="stats-card rounded-xl p-6">
+                        <div class="text-4xl font-bold mb-2">2.4x</div>
+                        <p class="text-gray-300">Higher Conversion Rate</p>
+                    </div>
+                    <div class="stats-card rounded-xl p-6">
+                        <div class="text-4xl font-bold mb-2">75%</div>
+                        <p class="text-gray-300">Reduced Returns</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Market Overview -->
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-4xl font-bold text-gray-800 mb-8 text-center">Market Overview</h2>
+                
+                <div class="bg-white rounded-2xl shadow-lg p-8 mb-12">
+                    <p class="text-gray-600 text-lg leading-relaxed mb-6">
+                        The jewelry industry is witnessing a digital transformation, with virtual try-on technology leading the way. This innovative approach allows customers to visualize jewelry pieces on themselves before making a purchase, bridging the gap between online and in-store shopping experiences.
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+                        <div class="p-6 bg-purple-50 rounded-xl">
+                            <h3 class="text-xl font-bold text-gray-800 mb-3">Current Market Trends</h3>
+                            <ul class="space-y-3 text-gray-600">
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-purple-600 mt-1 mr-2"></i>
+                                    <span>Growing adoption of AR technology in luxury retail</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-purple-600 mt-1 mr-2"></i>
+                                    <span>Increasing consumer demand for digital try-on experiences</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-purple-600 mt-1 mr-2"></i>
+                                    <span>Integration of AI for personalized recommendations</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="p-6 bg-purple-50 rounded-xl">
+                            <h3 class="text-xl font-bold text-gray-800 mb-3">Consumer Behavior</h3>
+                            <ul class="space-y-3 text-gray-600">
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-purple-600 mt-1 mr-2"></i>
+                                    <span>70% of consumers expect AR options when shopping online</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-purple-600 mt-1 mr-2"></i>
+                                    <span>Increased confidence in online jewelry purchases</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-purple-600 mt-1 mr-2"></i>
+                                    <span>Higher engagement with interactive shopping experiences</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Benefits -->
+    <section class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-gray-800 mb-12 text-center">Key Benefits of Virtual Try-On</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- For Retailers -->
+                <div class="insight-card p-8">
+                    <div class="text-purple-600 text-4xl mb-4">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">For Retailers</h3>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Increased online conversion rates</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Reduced return rates</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Enhanced customer engagement</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Competitive advantage in digital space</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- For Customers -->
+                <div class="insight-card p-8">
+                    <div class="text-purple-600 text-4xl mb-4">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">For Customers</h3>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Convenient shopping experience</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Better purchase decisions</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Time-saving virtual trials</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Reduced purchase anxiety</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Technology Benefits -->
+                <div class="insight-card p-8">
+                    <div class="text-purple-600 text-4xl mb-4">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Technology Benefits</h3>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Real-time visualization</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Accurate size and fit prediction</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Multi-angle product views</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Integration with existing systems</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Industry Examples -->
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-gray-800 mb-12 text-center">Industry Success Stories</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                <!-- Tanishq Example -->
+                <div class="insight-card p-8">
+                    <div class="mb-6">
+                        <div class="text-purple-600 text-3xl mb-4">
+                            <i class="fas fa-gem"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3">Tanishq's Digital Transformation</h3>
+                        <p class="text-gray-600 mb-4">
+                            Leading Indian jewelry brand Tanishq implemented virtual try-on technology, allowing customers to visualize jewelry pieces in real-time.
+                        </p>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="flex items-center text-gray-600">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            <span>Increased online engagement by 2.5x</span>
+                        </div>
+                        <div class="flex items-center text-gray-600">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            <span>Enhanced customer confidence in online purchases</span>
+                        </div>
+                        <div class="flex items-center text-gray-600">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            <span>Seamless integration with e-commerce platform</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CaratLane Example -->
+                <div class="insight-card p-8">
+                    <div class="mb-6">
+                        <div class="text-purple-600 text-3xl mb-4">
+                            <i class="fas fa-ring"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3">CaratLane's AR Innovation</h3>
+                        <p class="text-gray-600 mb-4">
+                            CaratLane pioneered the use of AR technology in India's jewelry sector, revolutionizing the online shopping experience.
+                        </p>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="flex items-center text-gray-600">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            <span>Reduced return rates significantly</span>
+                        </div>
+                        <div class="flex items-center text-gray-600">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            <span>Improved customer satisfaction scores</span>
+                        </div>
+                        <div class="flex items-center text-gray-600">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            <span>Mobile-first AR implementation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Features -->
+    <section class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-gray-800 mb-12 text-center">Technical Features</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- AR Technology -->
+                <div class="insight-card p-8">
+                    <div class="text-purple-600 text-3xl mb-4">
+                        <i class="fas fa-vr-cardboard"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Advanced AR Technology</h3>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Real-time face tracking</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Precise jewelry placement</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Natural lighting simulation</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Multi-angle visualization</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- AI Features -->
+                <div class="insight-card p-8">
+                    <div class="text-purple-600 text-3xl mb-4">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">AI-Powered Features</h3>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Personalized recommendations</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Size prediction</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Style matching</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>User preference learning</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Integration -->
+                <div class="insight-card p-8">
+                    <div class="text-purple-600 text-3xl mb-4">
+                        <i class="fas fa-plug"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Seamless Integration</h3>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>E-commerce platform compatibility</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Mobile optimization</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Social media sharing</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Analytics integration</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Future Trends -->
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-gray-800 mb-12 text-center">Future Trends</h2>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="insight-card p-8">
+                        <div class="text-purple-600 text-3xl mb-4">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Emerging Technologies</h3>
+                        <ul class="space-y-3 text-gray-600">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                <span>3D scanning for perfect fit</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                <span>Virtual showroom experiences</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                <span>AI-driven style recommendations</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="insight-card p-8">
+                        <div class="text-purple-600 text-3xl mb-4">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Industry Evolution</h3>
+                        <ul class="space-y-3 text-gray-600">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                <span>Integration with social commerce</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                <span>Personalized shopping experiences</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                <span>Enhanced mobile capabilities</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Implementation Process -->
+    <section class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-gray-800 mb-12 text-center">Implementation Journey</h2>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="space-y-6">
+                    <!-- Step 1 -->
+                    <div class="insight-card p-8">
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                                <span class="text-purple-600 font-bold">1</span>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-800 mb-3">Assessment & Planning</h3>
+                                <p class="text-gray-600 mb-4">
+                                    We begin by evaluating your jewelry catalog and technical requirements to create a customized implementation plan.
+                                </p>
+                                <ul class="space-y-2 text-gray-600">
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>Product catalog analysis</span>
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>Technical requirements gathering</span>
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>Implementation timeline development</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="insight-card p-8">
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                                <span class="text-purple-600 font-bold">2</span>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-800 mb-3">3D Modeling & Setup</h3>
+                                <p class="text-gray-600 mb-4">
+                                    Convert your jewelry catalog into high-quality 3D models optimized for virtual try-on.
+                                </p>
+                                <ul class="space-y-2 text-gray-600">
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>High-fidelity 3D modeling</span>
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>Texture and material optimization</span>
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>AR marker configuration</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="insight-card p-8">
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                                <span class="text-purple-600 font-bold">3</span>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-800 mb-3">Integration & Testing</h3>
+                                <p class="text-gray-600 mb-4">
+                                    Seamlessly integrate the virtual try-on solution with your existing e-commerce platform.
+                                </p>
+                                <ul class="space-y-2 text-gray-600">
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>Platform integration</span>
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>Performance optimization</span>
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>User experience testing</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ROI & Impact -->
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-gray-800 mb-12 text-center">Business Impact</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="insight-card p-8">
+                    <h3 class="text-xl font-bold text-gray-800 mb-6">Expected Results</h3>
+                    <ul class="space-y-4 text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-arrow-trend-up text-purple-600 mt-1 mr-3"></i>
+                            <span>Increased customer engagement and time spent on product pages</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-arrow-trend-up text-purple-600 mt-1 mr-3"></i>
+                            <span>Higher conversion rates for online jewelry sales</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-arrow-trend-down text-purple-600 mt-1 mr-3"></i>
+                            <span>Reduced return rates due to better purchase decisions</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="insight-card p-8">
+                    <h3 class="text-xl font-bold text-gray-800 mb-6">Long-Term Benefits</h3>
+                    <ul class="space-y-4 text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-star text-purple-600 mt-1 mr-3"></i>
+                            <span>Enhanced brand image as a tech-forward retailer</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-star text-purple-600 mt-1 mr-3"></i>
+                            <span>Improved customer satisfaction and loyalty</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-star text-purple-600 mt-1 mr-3"></i>
+                            <span>Competitive advantage in the digital marketplace</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-20 gradient-bg">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden">
+                <div class="p-8 text-center">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Ready to Transform Your Jewelry Business?</h2>
+                    <p class="text-gray-600 mb-8">
+                        Schedule a demo to see how our virtual try-on solution can enhance your customer experience
+                    </p>
+                    <div class="space-x-4">
+                        <a href="mailto:infiniteaitechsol@gmail.com" 
+                           class="button-primary px-8 py-3 rounded-lg text-white inline-block">
+                            Schedule Demo
+                        </a>
+                        <a href="index.html#contact" 
+                           class="px-8 py-3 rounded-lg border-2 border-purple-600 text-purple-600 inline-block hover:bg-purple-600 hover:text-white transition-colors">
+                            Contact Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark py-8">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm">
+                    &copy; 2024 Infinite AI. All rights reserved.
+                </p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
